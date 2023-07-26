@@ -4,6 +4,7 @@ import logoS from "../../assets/images/logo-s.png"
 import logoSubtitle from "../../assets/images/logo_sub.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Sidebar() {
   return (
@@ -23,6 +24,23 @@ export default function Sidebar() {
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/leo17/"> 
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="https://github.com/popey17"> 
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/aungmyat.kyaw.7/"> 
+                    <FontAwesomeIcon icon={faFacebook} color="#4d4d4e"/>
+                </a>
+            </li>
+        </ul>
     </div>
   )
 }
