@@ -2,7 +2,5 @@
 
 Write with react use Emailjs for email function
 
-Include advanced animaitons using animate js and sass 
-
-Thanks
+Include advanced animaitons using animate js and sass
 
